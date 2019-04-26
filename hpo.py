@@ -23,7 +23,6 @@ from torch.utils.data.sampler import SubsetRandomSampler
 
 import numpy as np
 
-!pip3 install torchvision
 
 import os
 
@@ -282,7 +281,7 @@ def run_cnn(cfg):
 
 #!curl https://raw.githubusercontent.com/automl/smac3/master/requirements.txt | xargs -n 1 -L 1 pip install
 
-!pip install smac --no-cache
+#!pip install smac --no-cache
 
 # Import ConfigSpace and different types of parameters
 from smac.configspace import ConfigurationSpace
